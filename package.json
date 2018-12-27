@@ -1,0 +1,22 @@
+{
+  "name": "autoswagger",
+  "version": "1.0.0",
+  "description": "will automatically generate a swagger document",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woloxalexis/AutoSwagger.git"
+  },
+  "keywords": [
+    "Swagger"
+  ],
+  "author": "Alexis Moragues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woloxalexis/AutoSwagger/issues"
+  },
+  "homepage": "https://github.com/woloxalexis/AutoSwagger#readme"
+}
