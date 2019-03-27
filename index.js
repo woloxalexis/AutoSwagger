@@ -22,7 +22,24 @@ exports.generateSwaggerDocument = (projectName) => ({
 exports.fillTag = (tag, description) => ({
 });
 
+exports.createResponse = res => {
+  "description": "",
+  "schema": {},
+  "headers": res.headers
+}
 
-exports.fillPath = (path, method, tag, opId, req, res) => ({
 
-});
+exports.createPath = (res) => {
+    const pathStructure = [res.request.req.path]: {
+    [res.request.method]: {
+      "tags": [],
+      "summary": ,
+      "description": "",
+      "operationId": "",
+      "produces": [res.type],
+      "parameters": [],
+      "responses:" {}
+    }
+  };
+  pathStructure.responses.[res.statusCode] = createResponse(res);
+};
